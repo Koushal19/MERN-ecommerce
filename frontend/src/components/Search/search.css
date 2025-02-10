@@ -1,0 +1,5 @@
+.searchbox input::placeholder {
+  color: #fd9800;
+  font-family: "Anton", serif;
+  font-optical-sizing: auto;
+}

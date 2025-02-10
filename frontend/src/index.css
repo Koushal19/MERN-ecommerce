@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+body {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+}
+
+.link:hover {
+  color: #fd9800;
+}
+
+.link {
+  font-family: "Anton", serif;
+  font-optical-sizing: auto;
+}
+
+.link2 {
+  font-family: "Anton", serif;
+  font-optical-sizing: auto;
+}
+
+.link2:hover {
+  color: white;
+}
+
+.MuiBadge-badge {
+  background-color: black !important;
+}
+
+.MuiBadge-badge:hover {
+  color: #fd9800;
+}
