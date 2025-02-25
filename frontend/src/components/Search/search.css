@@ -1,5 +1,5 @@
 .searchbox input::placeholder {
   color: #fd9800;
-  font-family: "Anton", serif;
+  font-family: "Inter", serif;
   font-optical-sizing: auto;
 }

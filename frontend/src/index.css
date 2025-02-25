@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 .container {
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 
@@ -22,12 +22,12 @@ body {
 }
 
 .link {
-  font-family: "Anton", serif;
+  font-family: "Inter", serif;
   font-optical-sizing: auto;
 }
 
 .link2 {
-  font-family: "Anton", serif;
+  font-family: "Inter", serif;
   font-optical-sizing: auto;
 }
 

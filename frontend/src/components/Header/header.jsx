@@ -7,6 +7,7 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { FaHeartCrack } from "react-icons/fa6";
 import { IoMdGitCompare } from "react-icons/io";
 import Tooltip from '@mui/material/Tooltip';
+import Navigation from "./navigation/navigation";
 
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
@@ -22,7 +23,7 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 
 function Header(){
     return(
-       <header>
+       <header className="bg-white">
          <div className="top-strip py-2 border-t-[1px] border-gray-250 border-b-[1px] bg-[#f6f6e9]">
             <div className="container">
                 <div className="flex items-center justify-between">
@@ -45,11 +46,12 @@ function Header(){
                 </div>
             </div>
          </div>
-         <div className="header py-3 bg-primary">
+
+         <div className="header py-2 border-b-[1px] border-gray-250 bg-primary">
             <div className="container flex items-center justify-between">
 
                 <div className="col1 w-[15%]">
-                    <Link to="/"><img src="./public/logo.png" /></Link>
+                    <Link to="/"><img src="./public/logo.png" width={150}/></Link>
                 </div>
 
                 <div className="col2 w-[10%]">
@@ -105,6 +107,10 @@ function Header(){
 
 
             </div>
+         </div>
+
+         <div>
+            <Navigation />
          </div>
        </header>
     );

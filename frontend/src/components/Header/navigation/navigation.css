@@ -1,0 +1,13 @@
+.link {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+}
+
+nav button {
+  text-transform: capitalize !important;
+  color: black !important;
+}
+
+nav button:hover {
+  color: #fd9800 !important;
+}
